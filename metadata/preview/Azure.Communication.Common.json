@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Communication.Common",
-  "Version": "2.0.0-alpha.20230912.1",
-  "DevVersion": "2.0.0-alpha.20230912.1",
+  "Version": "2.0.0-alpha.20230912.4",
+  "DevVersion": "2.0.0-alpha.20230912.4",
   "DirectoryPath": "sdk/communication/Azure.Communication.Common",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/Azure.Communication.Common/README.md",
