@@ -1,0 +1,18 @@
+{
+  "Name": "Azure.ResourceManager.ApiCenter",
+  "Version": "1.0.0-alpha.20230915.2",
+  "DevVersion": "1.0.0-alpha.20230915.2",
+  "DirectoryPath": "sdk/apicenter/Azure.ResourceManager.ApiCenter",
+  "ServiceDirectory": "apicenter",
+  "ReadMePath": "sdk/apicenter/Azure.ResourceManager.ApiCenter/README.md",
+  "ChangeLogPath": "sdk/apicenter/Azure.ResourceManager.ApiCenter/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.ApiCenter",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.ResourceManager.ApiCenter",
+    "Azure.ResourceManager.ApiCenter.Models"
+  ]
+}
