@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring",
-  "Version": "3.2.0-alpha.20230919.1",
-  "DevVersion": "3.2.0-alpha.20230919.1",
+  "Version": "3.2.0-alpha.20230919.2",
+  "DevVersion": "3.2.0-alpha.20230919.2",
   "DirectoryPath": "sdk/cognitiveservices/Language.LUIS.Authoring",
   "ServiceDirectory": "cognitiveservices",
   "ReadMePath": "",

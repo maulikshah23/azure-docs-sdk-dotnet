@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training",
-  "Version": "2.1.0-alpha.20230919.1",
-  "DevVersion": "2.1.0-alpha.20230919.1",
+  "Version": "2.1.0-alpha.20230919.2",
+  "DevVersion": "2.1.0-alpha.20230919.2",
   "DirectoryPath": "sdk/cognitiveservices/Vision.CustomVision.Training",
   "ServiceDirectory": "cognitiveservices",
   "ReadMePath": "",

@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Language.SpellCheck",
-  "Version": "4.1.0-alpha.20230919.1",
-  "DevVersion": "4.1.0-alpha.20230919.1",
+  "Version": "4.1.0-alpha.20230919.2",
+  "DevVersion": "4.1.0-alpha.20230919.2",
   "DirectoryPath": "sdk/cognitiveservices/Language.SpellCheck",
   "ServiceDirectory": "cognitiveservices",
   "ReadMePath": "",

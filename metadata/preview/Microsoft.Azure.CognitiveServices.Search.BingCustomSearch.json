@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Search.BingCustomSearch",
-  "Version": "2.1.0-alpha.20230919.1",
-  "DevVersion": "2.1.0-alpha.20230919.1",
+  "Version": "2.1.0-alpha.20230919.2",
+  "DevVersion": "2.1.0-alpha.20230919.2",
   "DirectoryPath": "sdk/cognitiveservices/Search.BingCustomSearch",
   "ServiceDirectory": "cognitiveservices",
   "ReadMePath": "",
