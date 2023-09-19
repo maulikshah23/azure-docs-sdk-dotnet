@@ -350,30 +350,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SendDtmfTones">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt; SendDtmfTones (System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt; tones, Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.CallAutomation.SendDtmfTonesResult&gt; SendDtmfTones(class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Communication.CallAutomation.DtmfTone&gt; tones, class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.SendDtmfTones(System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.DtmfTone},Azure.Communication.CommunicationIdentifier,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SendDtmfTones (tones As IEnumerable(Of DtmfTone), targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SendDtmfTonesResult)" />
-      <MemberSignature Language="F#" Value="abstract member SendDtmfTones : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&#xA;override this.SendDtmfTones : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;" Usage="callMedia.SendDtmfTones (tones, targetParticipant, operationContext, cancellationToken)" />
+    <Member MemberName="SendDtmf">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt; SendDtmf (System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt; tones, Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, Uri callbackUri = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.CallAutomation.SendDtmfResult&gt; SendDtmf(class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Communication.CallAutomation.DtmfTone&gt; tones, class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, class System.Uri callbackUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.SendDtmf(System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.DtmfTone},Azure.Communication.CommunicationIdentifier,System.String,System.Uri,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SendDtmf (tones As IEnumerable(Of DtmfTone), targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional callbackUri As Uri = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SendDtmfResult)" />
+      <MemberSignature Language="F#" Value="abstract member SendDtmf : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;&#xA;override this.SendDtmf : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;" Usage="callMedia.SendDtmf (tones, targetParticipant, operationContext, callbackUri, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="tones" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="targetParticipant" Type="Azure.Communication.CommunicationIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="operationContext" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="callbackUri" Type="System.Uri" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="tones">A list of Tones to be sent.</param>
         <param name="targetParticipant">A target participant identifier for starting continuous Dtmf recognition.</param>
         <param name="operationContext">An optional context object containing information about the operation, such as a unique identifier or custom metadata.</param>
+        <param name="callbackUri">The callback URI override for this transfer call request.</param>
         <param name="cancellationToken">An optional CancellationToken to cancel the request.</param>
         <summary>
             Send Dtmf tones.
@@ -382,30 +384,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SendDtmfTonesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&gt; SendDtmfTonesAsync (System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt; tones, Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&gt; SendDtmfTonesAsync(class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Communication.CallAutomation.DtmfTone&gt; tones, class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.SendDtmfTonesAsync(System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.DtmfTone},Azure.Communication.CommunicationIdentifier,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SendDtmfTonesAsync (tones As IEnumerable(Of DtmfTone), targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SendDtmfTonesResult))" />
-      <MemberSignature Language="F#" Value="abstract member SendDtmfTonesAsync : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&gt;&#xA;override this.SendDtmfTonesAsync : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&gt;" Usage="callMedia.SendDtmfTonesAsync (tones, targetParticipant, operationContext, cancellationToken)" />
+    <Member MemberName="SendDtmfAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;&gt; SendDtmfAsync (System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt; tones, Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, Uri callbackUri = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.CallAutomation.SendDtmfResult&gt;&gt; SendDtmfAsync(class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Communication.CallAutomation.DtmfTone&gt; tones, class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, class System.Uri callbackUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.SendDtmfAsync(System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.DtmfTone},Azure.Communication.CommunicationIdentifier,System.String,System.Uri,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SendDtmfAsync (tones As IEnumerable(Of DtmfTone), targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional callbackUri As Uri = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SendDtmfResult))" />
+      <MemberSignature Language="F#" Value="abstract member SendDtmfAsync : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;&gt;&#xA;override this.SendDtmfAsync : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; * Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;&gt;" Usage="callMedia.SendDtmfAsync (tones, targetParticipant, operationContext, callbackUri, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfTonesResult&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.CallAutomation.SendDtmfResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="tones" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="targetParticipant" Type="Azure.Communication.CommunicationIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="operationContext" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="callbackUri" Type="System.Uri" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="tones">A list of Tones to be sent.</param>
         <param name="targetParticipant">A target participant identifier for starting continuous Dtmf recognition.</param>
         <param name="operationContext">An optional context object containing information about the operation, such as a unique identifier or custom metadata.</param>
+        <param name="callbackUri">The callback URI override for this transfer call request.</param>
         <param name="cancellationToken">An optional CancellationToken to cancel the request.</param>
         <summary>
             Send Dtmf tones in async mode.
@@ -533,11 +537,11 @@
       </Docs>
     </Member>
     <Member MemberName="StopContinuousDtmfRecognition">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response StopContinuousDtmfRecognition (Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response StopContinuousDtmfRecognition(class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.StopContinuousDtmfRecognition(Azure.Communication.CommunicationIdentifier,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopContinuousDtmfRecognition (targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member StopContinuousDtmfRecognition : Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.StopContinuousDtmfRecognition : Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; Azure.Response" Usage="callMedia.StopContinuousDtmfRecognition (targetParticipant, operationContext, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response StopContinuousDtmfRecognition (Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, Uri callbackUri = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response StopContinuousDtmfRecognition(class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, class System.Uri callbackUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.StopContinuousDtmfRecognition(Azure.Communication.CommunicationIdentifier,System.String,System.Uri,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopContinuousDtmfRecognition (targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional callbackUri As Uri = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member StopContinuousDtmfRecognition : Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.StopContinuousDtmfRecognition : Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; Azure.Response" Usage="callMedia.StopContinuousDtmfRecognition (targetParticipant, operationContext, callbackUri, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -549,11 +553,13 @@
       <Parameters>
         <Parameter Name="targetParticipant" Type="Azure.Communication.CommunicationIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="operationContext" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="callbackUri" Type="System.Uri" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="targetParticipant">A target participant identifier for stopping continuous Dtmf recognition.</param>
         <param name="operationContext">An optional context object containing information about the operation, such as a unique identifier or custom metadata.</param>
+        <param name="callbackUri">The callback URI override for this transfer call request.</param>
         <param name="cancellationToken">An optional CancellationToken to cancel the request.</param>
         <summary>
             Stops continuous Dtmf recognition.
@@ -563,11 +569,11 @@
       </Docs>
     </Member>
     <Member MemberName="StopContinuousDtmfRecognitionAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; StopContinuousDtmfRecognitionAsync (Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; StopContinuousDtmfRecognitionAsync(class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.StopContinuousDtmfRecognitionAsync(Azure.Communication.CommunicationIdentifier,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopContinuousDtmfRecognitionAsync (targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member StopContinuousDtmfRecognitionAsync : Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.StopContinuousDtmfRecognitionAsync : Azure.Communication.CommunicationIdentifier * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="callMedia.StopContinuousDtmfRecognitionAsync (targetParticipant, operationContext, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; StopContinuousDtmfRecognitionAsync (Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext = default, Uri callbackUri = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; StopContinuousDtmfRecognitionAsync(class Azure.Communication.CommunicationIdentifier targetParticipant, string operationContext, class System.Uri callbackUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMedia.StopContinuousDtmfRecognitionAsync(Azure.Communication.CommunicationIdentifier,System.String,System.Uri,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopContinuousDtmfRecognitionAsync (targetParticipant As CommunicationIdentifier, Optional operationContext As String = Nothing, Optional callbackUri As Uri = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member StopContinuousDtmfRecognitionAsync : Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.StopContinuousDtmfRecognitionAsync : Azure.Communication.CommunicationIdentifier * string * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="callMedia.StopContinuousDtmfRecognitionAsync (targetParticipant, operationContext, callbackUri, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -579,11 +585,13 @@
       <Parameters>
         <Parameter Name="targetParticipant" Type="Azure.Communication.CommunicationIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="operationContext" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="callbackUri" Type="System.Uri" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="targetParticipant">A target participant identifier for stopping continuous Dtmf recognition.</param>
         <param name="operationContext">An optional context object containing information about the operation, such as a unique identifier or custom metadata.</param>
+        <param name="callbackUri">The callback URI override for this transfer call request.</param>
         <param name="cancellationToken">An optional CancellationToken to cancel the request.</param>
         <summary>
             Stops continuous Dtmf recognition in async mode.

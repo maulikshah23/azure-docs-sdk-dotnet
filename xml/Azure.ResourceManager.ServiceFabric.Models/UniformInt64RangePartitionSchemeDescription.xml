@@ -40,15 +40,15 @@
       <Docs>
         <param name="count"> The number of partitions. </param>
         <param name="lowKey">
-            String indicating the lower bound of the partition key range that
-            should be split between the partition ‘count’
+             String indicating the lower bound of the partition key range that
+             should be split between the partition ‘count’
             
-            </param>
+             </param>
         <param name="highKey">
-            String indicating the upper bound of the partition key range that
-            should be split between the partition ‘count’
+             String indicating the upper bound of the partition key range that
+             should be split between the partition ‘count’
             
-            </param>
+             </param>
         <summary> Initializes a new instance of UniformInt64RangePartitionSchemeDescription. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,10 +95,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-            String indicating the upper bound of the partition key range that
-            should be split between the partition ‘count’
+             String indicating the upper bound of the partition key range that
+             should be split between the partition ‘count’
             
-            </summary>
+             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,10 +121,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-            String indicating the lower bound of the partition key range that
-            should be split between the partition ‘count’
+             String indicating the lower bound of the partition key range that
+             should be split between the partition ‘count’
             
-            </summary>
+             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

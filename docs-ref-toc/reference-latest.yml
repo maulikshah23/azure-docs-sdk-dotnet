@@ -24,7 +24,7 @@
         children:
         - Azure.ResourceManager.Analysis
         - Azure.ResourceManager.Analysis.Models
-  - name: Api Management
+  - name: API Management
     href: ~/api/overview/azure/latest/api-management.md
     landingPageType: Service
     items:
@@ -115,6 +115,11 @@
     href: ~/api/overview/azure/latest/auto-suggest.md
     landingPageType: Service
     items:
+    - name: Auto Suggest
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+      landingPageType: Service
     - name: Auto Suggest
       children:
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
@@ -276,7 +281,6 @@
       children:
       - Azure.AI.Language.QuestionAnswering
       - Azure.AI.Language.QuestionAnswering.Authoring
-      - Azure.AI.Language.QuestionAnswering.Projects
       - Microsoft.Extensions.Azure
     - name: OpenAI Inference
       children:
@@ -292,6 +296,11 @@
       href: ~/api/overview/azure/latest/ai.translation.document-readme.md
       children:
       - Azure.AI.Translation.Document
+    - name: Text Translation
+      children:
+      - Azure.AI.Translation.Text
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Anomaly Detector
       children:
       - Microsoft.Azure.CognitiveServices.AnomalyDetector
@@ -331,6 +340,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+      landingPageType: Service
+    - name: Vision Content Moderator
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
       landingPageType: Service
     - name: Custom Vision Prediction
       children:
@@ -443,7 +457,6 @@
         href: ~/api/overview/azure/latest/resourcemanager.compute-readme.md
         children:
         - Azure.ResourceManager.Compute
-        - Azure.ResourceManager.Compute.Mocking
         - Azure.ResourceManager.Compute.Models
   - name: Confidential Ledger
     href: ~/api/overview/azure/latest/confidential-ledger.md
@@ -590,10 +603,20 @@
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
       landingPageType: Service
+    - name: Custom Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+      landingPageType: Service
   - name: Custom Search
     href: ~/api/overview/azure/latest/custom-search.md
     landingPageType: Service
     items:
+    - name: Custom Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+      landingPageType: Service
     - name: Custom Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomSearch
@@ -696,6 +719,11 @@
     href: ~/api/overview/azure/latest/dev-center.md
     landingPageType: Service
     items:
+    - name: Dev Center
+      children:
+      - Azure.Developer.DevCenter
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Dev Center
@@ -767,6 +795,11 @@
       - Microsoft.Azure.CognitiveServices.Search.EntitySearch
       - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
       landingPageType: Service
+    - name: Entity Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+      landingPageType: Service
   - name: Event Grid
     href: ~/api/overview/azure/latest/event-grid.md
     landingPageType: Service
@@ -776,7 +809,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Management
@@ -997,6 +1029,11 @@
       - Microsoft.Azure.CognitiveServices.Search.ImageSearch
       - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
       landingPageType: Service
+    - name: Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+      landingPageType: Service
   - name: IoT
     href: ~/api/overview/azure/latest/iot.md
     landingPageType: Service
@@ -1005,11 +1042,11 @@
       href: ~/api/overview/azure/latest/digitaltwins.core-readme.md
       children:
       - Azure.DigitalTwins.Core
-      - Azure.DigitalTwins.Core.Models
     - name: Device Update
       href: ~/api/overview/azure/latest/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Microsoft.Azure.Devices
       children:
       - Microsoft.Azure.Devices
@@ -1432,7 +1469,6 @@
         href: ~/api/overview/azure/latest/resourcemanager.network-readme.md
         children:
         - Azure.ResourceManager.Network
-        - Azure.ResourceManager.Network.Mocking
         - Azure.ResourceManager.Network.Models
       - name: Management - Network (deprecated)
         children:
@@ -1454,6 +1490,11 @@
     href: ~/api/overview/azure/latest/news-search.md
     landingPageType: Service
     items:
+    - name: News Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+      landingPageType: Service
     - name: News Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.NewsSearch
@@ -1587,6 +1628,21 @@
     href: ~/api/overview/azure/latest/purview.md
     landingPageType: Service
     items:
+    - name: Purview Account
+      children:
+      - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
+    - name: Purview Catalog
+      children:
+      - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
+    - name: Purview Scanning
+      children:
+      - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Purview Sharing
       children:
       - Azure.Analytics.Purview.Sharing
@@ -1731,7 +1787,6 @@
         href: ~/api/overview/azure/latest/resourcemanager.resources-readme.md
         children:
         - Azure.ResourceManager.Resources
-        - Azure.ResourceManager.Resources.Mocking
         - Azure.ResourceManager.Resources.Models
   - name: Resource Mover
     href: ~/api/overview/azure/latest/resource-mover.md
@@ -2094,10 +2149,20 @@
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
       landingPageType: Service
+    - name: Video Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+      landingPageType: Service
   - name: Visual Search
     href: ~/api/overview/azure/latest/visual-search.md
     landingPageType: Service
     items:
+    - name: Visual Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+      landingPageType: Service
     - name: Visual Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.VisualSearch
@@ -2134,6 +2199,11 @@
     href: ~/api/overview/azure/latest/web-search.md
     landingPageType: Service
     items:
+    - name: Web Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+      landingPageType: Service
     - name: Web Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.WebSearch

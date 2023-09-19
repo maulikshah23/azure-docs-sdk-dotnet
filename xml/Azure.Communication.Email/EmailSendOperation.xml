@@ -8,6 +8,7 @@
     <AssemblyName>Azure.Communication.Email</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Operation&lt;Azure.Communication.Email.EmailSendResult&gt;</BaseTypeName>
@@ -36,6 +37,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,16 +59,17 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
         <Parameter Name="client" Type="Azure.Communication.Email.EmailClient" />
       </Parameters>
       <Docs>
-        <param name="id">The ID of this operation.</param>
         <param name="client">
             The client used to check for completion.
             </param>
+        <param name="id">The ID of this operation.</param>
         <summary>
             Initializes a new <see cref="T:Azure.Communication.Email.EmailSendOperation" /> instance
             </summary>
@@ -84,6 +87,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -112,6 +116,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -135,6 +140,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -160,6 +166,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -184,6 +191,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -212,6 +220,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;</ReturnType>
@@ -240,6 +249,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Communication.Email.EmailSendResult</ReturnType>
@@ -263,12 +273,13 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the periodical service calls.</param>
@@ -292,13 +303,14 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="suggestedPollingInterval" Type="System.TimeSpan" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="suggestedPollingInterval" Type="System.TimeSpan" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="suggestedPollingInterval">
@@ -328,6 +340,7 @@
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt;</ReturnType>
@@ -347,28 +360,24 @@
       </Docs>
     </Member>
     <Member MemberName="WaitForCompletionAsync">
-      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync (TimeSpan suggestedPollingInterval, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class Azure.Response`1&lt;class Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync(valuetype System.TimeSpan suggestedPollingInterval, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync (TimeSpan suggestedPollingInterval, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class Azure.Response`1&lt;class Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync(valuetype System.TimeSpan suggestedPollingInterval, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Communication.Email.EmailSendOperation.WaitForCompletionAsync(System.TimeSpan,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function WaitForCompletionAsync (suggestedPollingInterval As TimeSpan, cancellationToken As CancellationToken) As ValueTask(Of Response(Of EmailSendResult))" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="override this.WaitForCompletionAsync : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt;" Usage="emailSendOperation.WaitForCompletionAsync (suggestedPollingInterval, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync (TimeSpan pollingInterval, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class Azure.Response`1&lt;class Azure.Communication.Email.EmailSendResult&gt;&gt; WaitForCompletionAsync(valuetype System.TimeSpan pollingInterval, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function WaitForCompletionAsync (pollingInterval As TimeSpan, cancellationToken As CancellationToken) As ValueTask(Of Response(Of EmailSendResult))" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="override this.WaitForCompletionAsync : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt;" Usage="emailSendOperation.WaitForCompletionAsync (pollingInterval, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function WaitForCompletionAsync (suggestedPollingInterval As TimeSpan, cancellationToken As CancellationToken) As ValueTask(Of Response(Of EmailSendResult))" />
+      <MemberSignature Language="F#" Value="override this.WaitForCompletionAsync : TimeSpan * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt;" Usage="emailSendOperation.WaitForCompletionAsync (suggestedPollingInterval, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.Email</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Communication.Email.EmailSendResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="suggestedPollingInterval" Type="System.TimeSpan" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="pollingInterval" Type="System.TimeSpan" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" />
+        <Parameter Name="suggestedPollingInterval" Type="System.TimeSpan" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="suggestedPollingInterval">
@@ -376,11 +385,6 @@
             The interval can change based on information returned from the server.
             For example, the server might communicate to the client that there is not reason to poll for status change sooner than some time.
             In that case, it uses the larger of the values between this value and the one returned from the server.
-            </param>
-        <param name="pollingInterval">
-            The interval between status requests to the server.
-            The interval can change based on information returned from the server.
-            For example, the server might communicate to the client that there is not reason to poll for status change sooner than some time.
             </param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the periodical service calls.</param>
         <summary>

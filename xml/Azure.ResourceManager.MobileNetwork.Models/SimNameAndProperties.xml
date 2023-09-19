@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -71,6 +74,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -111,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -131,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -151,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -162,23 +170,19 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of MobileNetworkProvisioningState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.ProvisioningState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.ProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.ProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of MobileNetworkProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The provisioning state of the SIM resource. </summary>
@@ -196,6 +200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -207,23 +212,19 @@
       </Docs>
     </Member>
     <Member MemberName="SimState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState? SimState { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; SimState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState? SimState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; SimState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SimState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SimState As Nullable(Of MobileNetworkSimState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.SimState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SimState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.MobileNetwork.Models.SimState? SimState { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.SimState&gt; SimState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SimState As Nullable(Of SimState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.SimState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.SimState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SimState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SimState As Nullable(Of MobileNetworkSimState)" />
+      <MemberSignature Language="F#" Value="member this.SimState : Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SimState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.SimState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The state of the SIM resource. </summary>
@@ -232,23 +233,19 @@
       </Docs>
     </Member>
     <Member MemberName="SiteProvisioningState">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; SiteProvisioningState { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; SiteProvisioningState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; SiteProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; SiteProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SiteProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SiteProvisioningState As IReadOnlyDictionary(Of String, MobileNetworkSiteProvisioningState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.SiteProvisioningState : System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SiteProvisioningState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.MobileNetwork.Models.SiteProvisioningState&gt; SiteProvisioningState { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, valuetype Azure.ResourceManager.MobileNetwork.Models.SiteProvisioningState&gt; SiteProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SiteProvisioningState As IReadOnlyDictionary(Of String, SiteProvisioningState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.SiteProvisioningState : System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.MobileNetwork.Models.SiteProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SiteProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SiteProvisioningState As IReadOnlyDictionary(Of String, MobileNetworkSiteProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.SiteProvisioningState : System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;" Usage="Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties.SiteProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.MobileNetwork.Models.SiteProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> A dictionary of sites to the provisioning state of this SIM on that site. </summary>
@@ -266,6 +263,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt;</ReturnType>
@@ -286,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -306,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

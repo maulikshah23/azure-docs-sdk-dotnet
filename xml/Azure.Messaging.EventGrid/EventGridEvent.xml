@@ -26,6 +26,7 @@
     <AssemblyVersion>4.16.0.0</AssemblyVersion>
     <AssemblyVersion>4.17.0.0</AssemblyVersion>
     <AssemblyVersion>4.18.0.0</AssemblyVersion>
+    <AssemblyVersion>4.19.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -71,6 +72,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="subject" Type="System.String" />
@@ -119,6 +121,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="subject" Type="System.String" />
@@ -170,6 +173,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -212,6 +216,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -251,6 +256,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -290,6 +296,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -329,6 +336,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,6 +376,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.EventGridEvent</ReturnType>
@@ -417,6 +426,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.EventGridEvent[]</ReturnType>
@@ -463,6 +473,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -502,6 +513,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -543,6 +555,7 @@
         <AssemblyVersion>4.16.0.0</AssemblyVersion>
         <AssemblyVersion>4.17.0.0</AssemblyVersion>
         <AssemblyVersion>4.18.0.0</AssemblyVersion>
+        <AssemblyVersion>4.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
